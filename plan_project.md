@@ -21,10 +21,15 @@ one workout contains many exercises
 one exercises contains many sets
 
 set - pounds and reps
+users
+- id
+- username
+- passwordhash
 
 workouts
 - id
 - date
+- user_id
 
 ercercises_workouts
 - id
